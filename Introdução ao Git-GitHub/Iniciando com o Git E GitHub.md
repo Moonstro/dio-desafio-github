@@ -20,7 +20,7 @@ Abrindo o Git Bash dentro da pasta que será o repositório, temos essas funcion
 > `git init `  - A pasta passa a ser um repositório local (é criada uma pasta oculta .git);
 >
 > **É possível verificar a existência dessa pasta através do comando `ls -la`, o qual
-> lista todos os arquivos e pastas, inclusive os ocultos ** 
+> lista todos os arquivos e pastas, inclusive os ocultos** 
 
 > `git status `  - Este comando listará todos os os arquivos/diretórios novos 
 > ou que sofreram modificações
@@ -39,11 +39,11 @@ Os arquivos do repositório sempre estão em um dos estados fundamentais:
 Ainda não foi informado que esses arquivos farão parte do próximo commit, ou seja,
 da próxima versão que será consolidada no repositório.
 
-#### 2. Preparado (staged/index): **Após comando `git add` ser executado no arquivo **
+#### 2. Preparado (staged/index): **Após comando `git add` ser executado no arquivo**
 Nesse estado o Git já foi informado que arquivo foi modificado e está pronto para ser 
 commitado, é o momento de decidir se faremos o commit ou não.
 
-#### 3. Consolidado (comitted): **Após comando `git commit` ser executado no arquivo **
+#### 3. Consolidado (comitted): **Após comando `git commit` ser executado no arquivo**
 
 **Obs: Não é possível pular estados, o fluxo deve ser seguido**
 **Obs: No terceiro estado o arquivo efetivamente fará parte do repositório** 
